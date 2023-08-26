@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Roboto","Arial",sans-serif;
+}
+header{position: fixed;
+    z-index: 999;
+    width: 100%;
+    border-bottom: 2px solid goldenrod;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    background-color: black;
+
+}
+header .mt{
+display: flex;
+justify-content: center;
+}
+header .lt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .lt img{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px
+}
+header .mt a{
+    text-decoration:none;
+    color: white;
+    font-size: 1.3em;
+    margin-left: 20px;
+    font-weight: 700;
+    transition: 0.5s ease;
+}
+header .mt a:hover{
+    color: orange;
+    transform: scale(1.1);
+}
+header .rt{
+    display: flex;
+    justify-content: center;
+}
+header .rt i{
+    color: gold;
+    margin-left: 20px;
+    font-size: 3em;
+}
+.s1{
+    padding: 390px 20px;
+    background-image: url(./image/coffee-mill-table-with-coffee-beans-around.jpg);
+    background-size: cover;
+    position: relative;
+
+}
+.s1 .words1,.words2{
+    color: white;
+    margin-left: 50px;
+ 
+}
+.s1 .words1{
+    font-size: 5em;
+    margin-top: -10%;
+}
+.s1 .words2{font-size: 2.3em;
+    margin-top: 60px;}
+    .s1 .words2 p{
+        margin-bottom: 10px;
+
+    }
+    .s1 .links a{
+        color: white;
+    margin-left: 50px;
+    /* margin-top: 110px; */
+    font-size: 2em;
+    text-decoration: none;
+    background-color: gold;
+    padding: 12px 30px;
+    border-radius: 14%;
+    }
+    .s1 .links{
+        margin-top: 40px;
+    }
+    .s2{
+        padding: 50px 100px;
+        background-color: black;
+    }
+    .s2 .title1{
+        display: flex;
+        justify-content: center;
+        font-size: 3em;
+        font-weight: 800;
+    }
+    .s2 .title1 h1{
+        text-transform: uppercase;
+        margin-left: 10px;
+        color: white;
+    }
+    .s2 .color1 h1{
+        color: goldenrod;
+    }
+    .s3{display: flex;
+        justify-content: center;
+        padding: 80px 100px;
+        background-color: black;
+    }
+    .s3 img{height: 360px;
+        width: 600px;
+        border-radius: 60px 0 0 60px;
+    }.s3 .t2{border-radius: 0 60px 60px 0;
+        background-color: rgb(112 112 112 / 20%);;
+        flex-direction: column;
+        width: 600px;
+        display: flex;
+        padding: 20px;
+        height: 360px;
+    }
+    .s3 .t2 h1{
+        font-size: 3em;
+        font-weight: 700;
+        color: goldenrod;
+    }    .s3 .t2 p{
+        color: white;
+        font-size: 1.3em;
+        margin-top: 10px;
+    }
+    .link2 a{
+
+
+text-decoration: none;
+color: white;
+/*  */
+font-size: 1.5em;
+background-color: goldenrod;
+        margin-left: 250px;
+        margin-top: 60px;
+justify-content: center;
+padding: 10px 20px;
+border-radius: 16%;
+transition: 0.7s ease;
+
+    }
+    .link2{
+        margin-top: -20px;
+       display: flex;
+    }
+    .link2 a:hover{
+transform: scale(1.1);
+        }
+.s4{display: flex;
+        justify-content: center;
+        padding: 80px 10px;
+        background-color: black;
+        flex-direction: column;}
+        .s4 img{
+            width: 200px;
+            border-radius: 50%;
+        }
+        .c1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 30px 0;
+        }
+        .c2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }.card{
+            margin: 20px;
+            border: 1px solid goldenrod;
+            padding: 40px 60px;
+        }
+        .card:hover{background-color: wheat;}
+        .s4 .b{
+            width: 170px;
+        }
+        .o{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }.o h1{
+            color: white;
+            font-size: 2em;
+            font-weight: 700;
+            margin: 10px 0;
+        }
+        .o p{
+            color: goldenrod;
+            margin-top: 5px ;
+            font-size: 2em;
+            font-weight: 500;
+        }
+        .o a{text-decoration: none;
+            color: white;
+            font-size: 1.5em;
+            font-weight: 700;
+            transition: 0.7S ease;
+            margin: 10px 0;
+            background-color: goldenrod;
+            border-radius: 18%;
+            padding:7px 15px; 
+        }.o a:hover{transform: scale(1.1);}
+            
+        .s5{display: flex;
+            justify-content: center;
+            padding: 80px 10px;
+            background-color: black;
+            }
+            .s5 img{
+                width: 150px;
+                border-radius: 50%;
+            }
+            .card1{
+                padding: 50px 60px;
+                flex-direction: column;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid gold;
+                text-align: center;
+                margin: 20px;
+            }
+            .card1 .text{
+                color: whitesmoke;
+                font-size: 1.5em;
+                font-weight: 500;
+                margin-bottom: 20px;
+                
+            }
+            br{
+                margin: 3px;
+            }
+            .card1 i{
+                color: white;
+                font-size: 4em;
+                margin-bottom: 20px;
+            }
+            .card1 img{
+                width: 94px;
+                height: 114px;
+                border-radius: 50%;
+            }
+            .stars{
+                font-size: 0.5em;
+                margin-top: 20px;
+            }
+            .card1 h1{margin-top: 20px;
+                font-size: 1.5em;
+                font-weight: 700;
+                color: white;
+            }
+            footer{
+                padding: 10px 100px;
+                background-image: url(./image/footer-bg.jpg);
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                flex-direction: column;
+            }
+            .contian{
+                display: flex;
+                justify-content: space-between;
+            }
+            .title0{
+                display: flex;
+    justify-content: center;
+            }
+            .l1{
+                display: flex;
+                flex-direction: column;
+            }
+            .l2{
+                display: flex;
+                flex-direction: column;
+            }
+            .l3{
+                display: flex;
+                flex-direction: column;
+            }
+            .l4{
+                display: flex;
+                flex-direction: column;
+            }
+            .title0{
+                color:dimgrey ;
+                font-size: 2em;
+                font-weight: 800;
+                margin: 20px 0;
+            }
+            .contian h1{
+                color: gold;
+                font-size: 2em;
+                display: flex
+                ;
+                justify-content: center;
+
+
+            }
+            .contian .text{text-align: center;
+                color: white;
+                font-size: 1.3em;
+                margin-top: 20px ;
+            }
+            .icons0{
+                color: white;
+                display: flex;
+                justify-content: center;
+                transition: 0.7s ease;
+            }
+            .icons0 i{font-size: 2em;
+                display: flex;
+                margin:  0 5px ;
+              
+            }.icons0 i:hover{
+               
+                color: gold;
+            }
+            .icons0:hover{
+                transform: scale(1.1);
+            }
+            .contian a{
+                text-decoration: none;
+                color: white;
+                transition: 0.5s ease;
+                font-size: 1.5em;
+                margin: 5px 0;
+                display: flex;
+                justify-content: center;
+            }
+            .contian a:hover{
+                color: goldenrod;
+                transform: scale(1.1);
+            }
+            .n{
+                display: flex;
+                margin: 10px 0;
+                color: white;
+                font-size: 1.5em;
+                font-weight: 700;
+            }
